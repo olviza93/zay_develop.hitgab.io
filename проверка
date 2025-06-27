@@ -1,0 +1,1180 @@
+<div class="tb" >
+
+
+      <div class="carousel-container2">
+        <div class="articles-carousel2">     
+        
+        
+            <article class="article5" data-modal-id="modal-1">            
+                <div>            
+                    <p class="center"><img src="с1.png" onclick="openModal('m-1')"></p> <br>    
+                    <a href="https://psyhopara.ru" >  <h2>  Многостраничный сайт "ПСИХОПАРА"      </h2></a>
+                </div>
+            </article>
+                
+        </div>
+    </div>           
+                    
+            
+   
+<div  class="modal">
+    
+    <div class="modal-content1">
+    <div >
+        <div >    
+             <span class="close" onclick="closeModal('')">×</span>
+             <button id="prev5"><</button>
+        
+        
+            <article class="article5" data-modal-id="m-1">            
+                <div>            
+                    <p  ><img src="с1.png" ></p> <br>    
+                    <a href="https://psi-24.ru" >  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+            <article class="article5" data-modal-id="m-2">            
+                <div>            
+                    <p><img src="с2.png" ></p> <br>    
+                    <a href="https://psi-24.ru" >  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+            <article class="article5" data-modal-id="m-3">            
+                <div>            
+                    <p><img src="с3.png" ></p> <br>    
+                    <a href="https://psi-24.ru" >  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+            <article class="article5" data-modal-id="m-4">            
+                <div>            
+                    <p><img src="с4.png" ></p> <br>    
+                    <a href="https://psi-24.ru" >  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+            <article class="article5" data-modal-id="m-5">            
+                <div>            
+                    <p><img src="с5.png" ></p> <br>    
+                    <a href="https://psi-24.ru">  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+
+            <article class="article5" data-modal-id="m-6">            
+                <div>            
+                    <p><img src="с6.png" ></p> <br>    
+                    <a href="https://psi-24.ru">  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+            <article class="article5" data-modal-id="m-7">            
+                <div>            
+                    <p><img src="с7.png" ></p> <br>    
+                    <a href="https://psi-24.ru">  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+            <article class="article5" data-modal-id="m-8">            
+                <div>            
+                    <p><img src="с8.png" ></p> <br>    
+                    <a href="https://psi-24.ru">  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+
+            <article class="article5" data-modal-id="m-9">            
+                <div>            
+                    <p><img src="с9.png" ></p> <br>    
+                    <a href="https://psi-24.ru" >  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+
+            <article class="article5" data-modal-id="m-10">            
+                <div>            
+                    <p><img src="с10.png" ></p> <br>    
+                    <a href="https://psi-24.ru" >  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+            <article class="article5" data-modal-id="m-11">            
+                <div>            
+                    <p><img src="с11.png" ></p> <br>    
+                    <a href="https://psi-24.ru" >  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+
+            <article class="article5" data-modal-id="m-12">            
+                <div>            
+                    <p><img src="с12.png" ></p> <br>    
+                    <a href="https://psi-24.ru" >  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+            <article class="article5" data-modal-id="m-13">            
+                <div>            
+                    <p><img src="с13.png" ></p> <br>    
+                    <a href="https://psi-24.ru" >  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+            <article class="article5" data-modal-id="m-14">            
+                <div>            
+                    <p><img src="с14.png" ></p> <br>    
+                    <a href="https://psi-24.ru" >  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+            <article class="article5" data-modal-id="m-15">            
+                <div>            
+                    <p><img src="с15.png" ></p> <br>    
+                    <a href="https://psi-24.ru" >  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+
+            <button id="next5">></button>
+                </div>
+            </div>
+    </div></div></div>
+
+
+
+
+
+
+<div id="examples" class="content-block"> <!-- Примеры работ -->
+    <h2>Примеры работ</h2>
+    
+<div class="rew">
+   <div class="tb" >
+    <div class="carousel-container2">
+        <div class="articles-carousel2">     <button id="prev2"><</button>
+        
+        
+            <article class="article2" data-modal-id="modal-1">            
+                <div>            
+                    <p  ><img src="с1.png" onclick="openModal('m-1')"></p> <br>    
+                    <a href="https://psi-24.ru" >  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+            <article class="article2" data-modal-id="modal-2">            
+                <div>            
+                    <p><img src="с2.png" onclick="openModal('m-2')"></p> <br>    
+                    <a href="https://psi-24.ru" >  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+            <article class="article2" data-modal-id="modal-3">            
+                <div>            
+                    <p><img src="с3.png" onclick="openModal('m-3')"></p> <br>    
+                    <a href="https://psi-24.ru" >  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+            <article class="article2" data-modal-id="modal-4">            
+                <div>            
+                    <p><img src="с4.png" onclick="openModal('m-4')"></p> <br>    
+                    <a href="https://psi-24.ru" >  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+            <article class="article2" data-modal-id="modal-5">            
+                <div>            
+                    <p><img src="с5.png" onclick="openModal('m-5')"></p> <br>    
+                    <a href="https://psi-24.ru">  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+
+            <article class="article2" data-modal-id="modal-6">            
+                <div>            
+                    <p><img src="с6.png" onclick="openModal('m-6')"></p> <br>    
+                    <a href="https://psi-24.ru">  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+            <article class="article2" data-modal-id="modal-7">            
+                <div>            
+                    <p><img src="с7.png" onclick="openModal('m-7')"></p> <br>    
+                    <a href="https://psi-24.ru">  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+            <article class="article2" data-modal-id="modal-8">            
+                <div>            
+                    <p><img src="с8.png" onclick="openModal('m-8')"></p> <br>    
+                    <a href="https://psi-24.ru">  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+
+            <article class="article2" data-modal-id="modal-9">            
+                <div>            
+                    <p><img src="с9.png" onclick="openModal('m-9')"></p> <br>    
+                    <a href="https://psi-24.ru" >  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+
+            <article class="article2" data-modal-id="modal-10">            
+                <div>            
+                    <p><img src="с10.png" onclick="openModal('m-10')"></p> <br>    
+                    <a href="https://psi-24.ru" >  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+            <article class="article2" data-modal-id="modal-11">            
+                <div>            
+                    <p><img src="с11.png" onclick="openModal('m-11')"></p> <br>    
+                    <a href="https://psi-24.ru" >  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+
+            <article class="article2" data-modal-id="modal-12">            
+                <div>            
+                    <p><img src="с12.png" onclick="openModal('m-12')"></p> <br>    
+                    <a href="https://psi-24.ru" >  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+            <article class="article2" data-modal-id="modal-13">            
+                <div>            
+                    <p><img src="с13.png" onclick="openModal('m-13')"></p> <br>    
+                    <a href="https://psi-24.ru" >  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+            <article class="article2" data-modal-id="modal-14">            
+                <div>            
+                    <p><img src="с14.png" onclick="openModal('m-14')"></p> <br>    
+                    <a href="https://psi-24.ru" >  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+            <article class="article2" data-modal-id="modal-15">            
+                <div>            
+                    <p><img src="с15.png" onclick="openModal('m-15')"></p> <br>    
+                    <a href="https://psi-24.ru" >  <h2>  Лендинг психолога       </h2></a>
+                </div>
+            </article>
+
+            <button id="next2">></button>
+                </div>
+            </div>
+
+            
+
+
+<!-- Модальные окна для каждой статьи -->
+
+
+<div id="m-1" class="modal">
+    <span class="close" onclick="closeModal('m-1')">×</span>
+    <div class="modal-content1">
+        <img src="с1.png">
+    </div>
+</div>
+
+<div id="m-2" class="modal">
+    <span class="close" onclick="closeModal('m-2')">×</span>
+    <div class="modal-content1">
+        <img src="с2.png">
+    </div>
+</div>
+<div id="m-3" class="modal">
+    <span class="close" onclick="closeModal('m-3')">×</span>
+    <div class="modal-content1">
+        <img src="с3.png">
+    </div>
+</div>
+
+<div id="m-4" class="modal">
+    <span class="close" onclick="closeModal('m-4')">×</span>
+    <div class="modal-content1">
+        <img src="с4.png">
+    </div>
+</div>
+
+<div id="m-5" class="modal">
+    <span class="close" onclick="closeModal('m-5')">×</span>
+    <div class="modal-content1">
+        <img src="с5.png">
+    </div>
+</div>
+
+<div id="m-6" class="modal">
+    <span class="close" onclick="closeModal('m-6')">×</span>
+    <div class="modal-content1">
+        <img src="с6.png">
+    </div>
+</div>
+
+<div id="m-7" class="modal">
+    <span class="close" onclick="closeModal('m-7')">×</span>
+    <div class="modal-content1">
+        <img src="с7.png">
+    </div>
+</div>
+<div id="m-8" class="modal">
+    <span class="close" onclick="closeModal('m-8')">×</span>
+    <div class="modal-content1">
+        <img src="с8.png">
+    </div>
+</div>
+
+<div id="m-9" class="modal">
+    <span class="close" onclick="closeModal('m-9')">×</span>
+    <div class="modal-content1">
+        <img src="с9.png">
+    </div>
+</div>
+
+<div id="m-10" class="modal">
+    <span class="close" onclick="closeModal('m-10')">×</span>
+    <div class="modal-content1">
+        <img src="с10.png">
+    </div>
+</div>
+<div id="m-11" class="modal">
+    <span class="close" onclick="closeModal('m-11')">×</span>
+    <div class="modal-content1">
+        <img src="с11.png">
+    </div>
+</div>
+
+<div id="m-12" class="modal">
+    <span class="close" onclick="closeModal('m-12')">×</span>
+    <div class="modal-content1">
+        <img src="с12.png">
+    </div>
+</div>
+<div id="m-13" class="modal">
+    <span class="close" onclick="closeModal('m-13')">×</span>
+    <div class="modal-content1">
+        <img src="с13.png">
+    </div>
+</div>
+
+<div id="m-14" class="modal">
+    <span class="close" onclick="closeModal('m-14')">×</span>
+    <div class="modal-content1">
+        <img src="с14.png">
+    </div>
+</div>
+
+<div id="m-15" class="modal">
+    <span class="close" onclick="closeModal('m-15')">×</span>
+    <div class="modal-content1">
+        <img src="с15.png">
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+   <div class="tb" >
+
+    <div class="carousel-container3">
+        <div class="articles-carousel3">     <button id="prev3"><</button>
+        
+        
+            <article class="article3" data-modal-id="modal-1">            
+                <div>            
+                    <p class="center"><img src="с16.png" onclick="openModal('m-16')"></p> <br>    
+                    <a href="https://psyhopara.ru" >  <h2>  Многостраничный сайт "ПСИХОПАРА"      </h2></a>
+                </div>
+            </article>
+    
+            <article class="article3" data-modal-id="modal-2">            
+                <div>            
+                    <p class="center"><img src="с17.png" onclick="openModal('m-17')"></p> <br>    
+                    <a href="https://psyhopara.ru" >  <h2>  Многостраничный сайт "ПСИХОПАРА"      </h2></a>                </div>
+            </article>
+    
+            <article class="article3" data-modal-id="modal-3">            
+                <div>            
+                    <p class="center"><img src="с18.png" onclick="openModal('m-18')"></p> <br>    
+                    <a href="https://psyhopara.ru" >  <h2>  Многостраничный сайт "ПСИХОПАРА"      </h2></a>                </div>
+            </article>
+            <article class="article3" data-modal-id="modal-4">            
+                <div>            
+                    <p class="center"><img src="с19.png" onclick="openModal('m-19')"></p> <br>    
+                    <a href="https://psyhopara.ru" >  <h2>  Многостраничный сайт "ПСИХОПАРА"      </h2></a>                </div>
+            </article>
+    
+            <article class="article3" data-modal-id="modal-5">            
+                <div>            
+                    <p class="center"><img src="с20.png" onclick="openModal('m-20')"></p> <br>    
+                    <a href="https://psyhopara.ru" >  <h2>  Многостраничный сайт "ПСИХОПАРА"      </h2></a>                </div>
+            </article>
+    
+            <article class="article3" data-modal-id="modal-6">            
+                <div>            
+                    <p class="center"><img src="с21.png" onclick="openModal('m-21')"></p> <br>    
+                    <a href="https://psyhopara.ru" >  <h2>  Многостраничный сайт "ПСИХОПАРА"      </h2></a>                </div>
+            </article>
+            <article class="article3" data-modal-id="modal-7">            
+                <div>            
+                    <p class="center"><img src="с22.png" onclick="openModal('m-22')"></p> <br>    
+                    <a href="https://psyhopara.ru" >  <h2>  Многостраничный сайт "ПСИХОПАРА"      </h2></a>                </div>
+            </article>
+    
+            <article class="article3" data-modal-id="modal-8">            
+                <div>            
+                    <p class="center"> <img src="с23.png" onclick="openModal('m-23')"></p> <br>    
+                    <a href="https://psyhopara.ru" >  <h2>  Многостраничный сайт "ПСИХОПАРА"      </h2></a>                </div>
+            </article>
+    
+            <article class="article3" data-modal-id="modal-9">            
+                <div>            
+                    <p class="center"><img src="с24.png" onclick="openModal('m-24')"></p> <br>    
+                    <a href="https://psyhopara.ru" >  <h2>  Многостраничный сайт "ПСИХОПАРА"      </h2></a>                </div>
+            </article>
+            <article class="article3" data-modal-id="modal-10">            
+                <div>            
+                    <p class="center"><img src="с25.png" onclick="openModal('m-25')"></p> <br>    
+                    <a href="https://psyhopara.ru" >  <h2>  Многостраничный сайт "ПСИХОПАРА"      </h2></a>                </div>
+            </article>
+    
+            <article class="article3" data-modal-id="modal-11">            
+                <div>            
+                    <p class="center"><img src="с26.png" onclick="openModal('m-26')"></p> <br>    
+                    <a href="https://psyhopara.ru" >  <h2>  Многостраничный сайт "ПСИХОПАРА"      </h2></a>                </div>
+            </article>
+    
+            <article class="article3" data-modal-id="modal-12">            
+                <div>            
+                    <p class="center"><img src="с27.png" onclick="openModal('m-27')"></p> <br>    
+                    <a href="https://psyhopara.ru" >  <h2>  Многостраничный сайт "ПСИХОПАРА"      </h2></a>                </div>
+            </article>
+
+            <article class="article3" data-modal-id="modal-13">            
+                <div>            
+                    <p class="center"><img src="с28.png" onclick="openModal('m-28')"></p> <br>    
+                    <a href="https://psyhopara.ru" >  <h2>  Многостраничный сайт "ПСИХОПАРА"      </h2></a>                </div>
+            </article>
+    
+            <article class="article3" data-modal-id="modal-14">            
+                <div>            
+                    <p class="center"><img src="с29.png" onclick="openModal('m-29')"></p> <br>    
+                    <a href="https://psyhopara.ru" >  <h2>  Многостраничный сайт "ПСИХОПАРА"      </h2></a>                </div>
+            </article>
+    
+            <article class="article3" data-modal-id="modal-15">            
+                <div>            
+                    <p class="center"><img src="с30.png" onclick="openModal('m-30')"></p> <br>    
+                    <a href="https://psyhopara.ru" >  <h2>  Многостраничный сайт "ПСИХОПАРА"      </h2></a>                </div>
+            </article>
+
+            <article class="article3" data-modal-id="modal-16">            
+                <div>            
+                    <p class="center"><img src="с31.png" onclick="openModal('m-31')"></p> <br>    
+                    <a href="https://psyhopara.ru" >  <h2>  Многостраничный сайт "ПСИХОПАРА"      </h2></a>                </div>
+            </article>
+    
+            <article class="article3" data-modal-id="modal-17">            
+                <div>            
+                    <p class="center"><img src="с32.png" onclick="openModal('m-32')"></p> <br>    
+                    <a href="https://psyhopara.ru" >  <h2>  Многостраничный сайт "ПСИХОПАРА"      </h2></a>                </div>
+            </article>
+    
+            <article class="article3" data-modal-id="modal-18">            
+                <div>            
+                    <p class="center"><img src="с33.png" onclick="openModal('m-33')"></p> <br>    
+                    <a href="https://psyhopara.ru" >  <h2>  Многостраничный сайт "ПСИХОПАРА"      </h2></a>                </div>
+            </article>
+
+                 <button id="next3">></button>
+                </div>
+            </div>
+   
+   
+   
+            <div id="m-16" class="modal">
+                <span class="close" onclick="closeModal('m-16')">×</span>
+                <div class="modal-content1">
+                    <img src="с16.png">
+                </div>
+            </div>
+            
+            <div id="m-17" class="modal">
+                <span class="close" onclick="closeModal('m-17')">×</span>
+                <div class="modal-content1">
+                    <img src="с17.png">
+                </div>
+            </div>
+            <div id="m-18" class="modal">
+                <span class="close" onclick="closeModal('m-18')">×</span>
+                <div class="modal-content1">
+                    <img src="с18.png">
+                </div>
+            </div>
+            
+            <div id="m-19" class="modal">
+                <span class="close" onclick="closeModal('m-19')">×</span>
+                <div class="modal-content1">
+                    <img src="с19.png">
+                </div>
+            </div>
+            
+            <div id="m-20" class="modal">
+                <span class="close" onclick="closeModal('m-20')">×</span>
+                <div class="modal-content1">
+                    <img src="с20.png">
+                </div>
+            </div>
+            
+            <div id="m-21" class="modal">
+                <span class="close" onclick="closeModal('m-21')">×</span>
+                <div class="modal-content1">
+                    <img src="с21.png">
+                </div>
+            </div>
+            
+            <div id="m-22" class="modal">
+                <span class="close" onclick="closeModal('m-22')">×</span>
+                <div class="modal-content1">
+                    <img src="с22.png">
+                </div>
+            </div>
+            <div id="m-23" class="modal">
+                <span class="close" onclick="closeModal('m-23')">×</span>
+                <div class="modal-content1">
+                    <img src="с23.png">
+                </div>
+            </div>
+            
+            <div id="m-24" class="modal">
+                <span class="close" onclick="closeModal('m-24')">×</span>
+                <div class="modal-content1">
+                    <img src="с24.png">
+                </div>
+            </div>
+            
+            <div id="m-25" class="modal">
+                <span class="close" onclick="closeModal('m-25')">×</span>
+                <div class="modal-content1">
+                    <img src="с25.png">
+                </div>
+            </div>
+            <div id="m-26" class="modal">
+                <span class="close" onclick="closeModal('m-26')">×</span>
+                <div class="modal-content1">
+                    <img src="с26.png">
+                </div>
+            </div>
+            
+            <div id="m-27" class="modal">
+                <span class="close" onclick="closeModal('m-27')">×</span>
+                <div class="modal-content1">
+                    <img src="с27.png">
+                </div>
+            </div>
+            <div id="m-28" class="modal">
+                <span class="close" onclick="closeModal('m-28')">×</span>
+                <div class="modal-content1">
+                    <img src="с28.png">
+                </div>
+            </div>
+            
+            <div id="m-29" class="modal">
+                <span class="close" onclick="closeModal('m-29')">×</span>
+                <div class="modal-content1">
+                    <img src="с29.png">
+                </div>
+            </div>
+            
+            <div id="m-30" class="modal">
+                <span class="close" onclick="closeModal('m-30')">×</span>
+                <div class="modal-content1">
+                    <img src="с30.png">
+                </div>
+            </div>
+   
+            <div id="m-31" class="modal">
+                <span class="close" onclick="closeModal('m-31')">×</span>
+                <div class="modal-content1">
+                    <img src="с31.png">
+                </div>
+            </div>
+            
+            <div id="m-32" class="modal">
+                <span class="close" onclick="closeModal('m-32')">×</span>
+                <div class="modal-content1">
+                    <img src="с32.png">
+                </div>
+            </div>
+            
+            <div id="m-33" class="modal">
+                <span class="close" onclick="closeModal('m-33')">×</span>
+                <div class="modal-content1">
+                    <img src="с33.png">
+                </div>
+            </div>
+        </div>
+   <div class="tb" > 
+
+    <div class="carousel-container4">
+        <div class="articles-carousel4">     <button id="prev4"><</button>
+        
+        
+            <article class="article4" data-modal-id="modal-1">            
+                <div>            
+                    <p><img src="с34.png" onclick="openModal('m-34')"></p> <br>    
+                    <a href="https://zaytsevamath.ru" >  <h2>  Лендинг репетитора       </h2></a>
+                </div>
+            </article>
+    
+            <article class="article4" data-modal-id="modal-2">            
+                <div>            
+                    <p><img src="с35.png" onclick="openModal('m-35')"></p> <br>    
+                    <a href="https://zaytsevamath.ru" >  <h2>  Лендинг репетитора       </h2></a>
+                </div>
+            </article>
+            <article class="article4" data-modal-id="modal-3">            
+                <div>            
+                    <p><img src="с36.png" onclick="openModal('m-36')"></p> <br>    
+                    <a href="https://zaytsevamath.ru" >  <h2>  Лендинг репетитора       </h2></a>
+                </div>
+            </article>
+
+            <article class="article4" data-modal-id="modal-4">            
+                <div>            
+                    <p><img src="с37.png" onclick="openModal('m-37')"></p> <br>    
+                    <a href="https://zaytsevamath.ru" >  <h2>  Лендинг репетитора       </h2></a>
+                </div>
+            </article>
+    
+            <article class="article4" data-modal-id="modal-5">            
+                <div>            
+                    <p><img src="с38.png" onclick="openModal('m-38')"></p> <br>    
+                    <a href="https://zaytsevamath.ru" >  <h2>  Лендинг репетитора       </h2></a>
+                </div>
+            </article>
+            <article class="article4" data-modal-id="modal-6">            
+                <div>            
+                    <p><img src="с39.png" onclick="openModal('m-39')"></p> <br>    
+                    <a href="https://zaytsevamath.ru" >  <h2>  Лендинг репетитора       </h2></a>
+                </div>
+            </article>
+            <article class="article4" data-modal-id="modal-7">            
+                <div>            
+                    <p><img src="с40.png" onclick="openModal('m-40')"></p> <br>    
+                    <a href="https://zaytsevamath.ru" >  <h2>  Лендинг репетитора       </h2></a>
+                </div>
+            </article>
+    
+            <article class="article4" data-modal-id="modal-8">            
+                <div>            
+                    <p><img src="с41.png" onclick="openModal('m-41')"></p> <br>    
+                    <a href="https://zaytsevamath.ru" >  <h2>  Лендинг репетитора       </h2></a>
+                </div>
+            </article>
+            <article class="article4" data-modal-id="modal-9">            
+                <div>            
+                    <p><img src="с42.png" onclick="openModal('m-42')"></p> <br>    
+                    <a href="https://zaytsevamath.ru" >  <h2>  Лендинг репетитора       </h2></a>
+                </div>
+            </article>
+            <article class="article4" data-modal-id="modal-10">            
+                <div>            
+                    <p><img src="с43.png" onclick="openModal('m-43')"></p> <br>    
+                    <a href="https://zaytsevamath.ru" >  <h2>  Лендинг репетитора       </h2></a>
+                </div>
+            </article>
+    
+            <article class="article4" data-modal-id="modal-11">            
+                <div>            
+                    <p><img src="с44.png" onclick="openModal('m-44')"></p> <br>    
+                    <a href="https://zaytsevamath.ru" >  <h2>  Лендинг репетитора       </h2></a>
+                </div>
+            </article>
+            <article class="article4" data-modal-id="modal-12">            
+                <div>            
+                    <p><img src="с45.png" onclick="openModal('m-45')"></p> <br>    
+                    <a href="https://zaytsevamath.ru" >  <h2>  Лендинг репетитора       </h2></a>
+                </div>
+            </article>
+            <article class="article4" data-modal-id="modal-13">            
+                <div>            
+                    <p><img src="с46.png" onclick="openModal('m-46')"></p> <br>    
+                    <a href="https://zaytsevamath.ru" >  <h2>  Лендинг репетитора       </h2></a>
+                </div>
+            </article>
+    
+            <article class="article4" data-modal-id="modal-14">            
+                <div>            
+                    <p><img src="с47.png" onclick="openModal('m-47')"></p> <br>    
+                    <a href="https://zaytsevamath.ru" >  <h2>  Лендинг репетитора       </h2></a>
+                </div>
+            </article>
+
+                 <button id="next4">></button>
+                </div>
+            </div>
+   </div>
+
+   <div id="m-34" class="modal">
+    <span class="close" onclick="closeModal('m-34')">×</span>
+    <div class="modal-content1">
+        <img src="с34.png">
+    </div>
+</div>
+
+<div id="m-35" class="modal">
+    <span class="close" onclick="closeModal('m-35')">×</span>
+    <div class="modal-content1">
+        <img src="с35.png">
+    </div>
+</div>
+<div id="m-36" class="modal">
+    <span class="close" onclick="closeModal('m-36')">×</span>
+    <div class="modal-content1">
+        <img src="с36.png">
+    </div>
+</div>
+
+<div id="m-37" class="modal">
+    <span class="close" onclick="closeModal('m-37')">×</span>
+    <div class="modal-content1">
+        <img src="с37.png">
+    </div>
+</div>
+
+<div id="m-38" class="modal">
+    <span class="close" onclick="closeModal('m-38')">×</span>
+    <div class="modal-content1">
+        <img src="с38.png">
+    </div>
+</div>
+
+<div id="m-39" class="modal">
+    <span class="close" onclick="closeModal('m-39')">×</span>
+    <div class="modal-content1">
+        <img src="с39.png">
+    </div>
+</div>
+
+<div id="m-40" class="modal">
+    <span class="close" onclick="closeModal('m-40')">×</span>
+    <div class="modal-content1">
+        <img src="с40.png">
+    </div>
+</div>
+<div id="m-41" class="modal">
+    <span class="close" onclick="closeModal('m-41')">×</span>
+    <div class="modal-content1">
+        <img src="с41.png">
+    </div>
+</div>
+
+<div id="m-42" class="modal">
+    <span class="close" onclick="closeModal('m-42')">×</span>
+    <div class="modal-content1">
+        <img src="с42.png">
+    </div>
+</div>
+
+<div id="m-43" class="modal">
+    <span class="close" onclick="closeModal('m-43')">×</span>
+    <div class="modal-content1">
+        <img src="с43.png">
+    </div>
+</div>
+<div id="m-44" class="modal">
+    <span class="close" onclick="closeModal('m-44')">×</span>
+    <div class="modal-content1">
+        <img src="с44.png">
+    </div>
+</div>
+
+<div id="m-45" class="modal">
+    <span class="close" onclick="closeModal('m-45')">×</span>
+    <div class="modal-content1">
+        <img src="с45.png">
+    </div>
+</div>
+<div id="m-46" class="modal">
+    <span class="close" onclick="closeModal('m-46')">×</span>
+    <div class="modal-content1">
+        <img src="с46.png">
+    </div>
+</div>
+
+<div id="m-47" class="modal">
+    <span class="close" onclick="closeModal('m-47')">×</span>
+    <div class="modal-content1">
+        <img src="с47.png">
+    </div>
+</div>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+ <option value="создание_сайта"> Разработка лендинга </option>
+ <option value="создание_сайта">Разработка многостраничногосайта </option>
+ <option value="создание_сайта">Разработка динамического сайта </option>
+ <option value="создание_сайта">SEO-Анализ</option>
+ <option value="создание_сайта">Перенос сайта с одной платформы на другую</option>
+ <option value="создание_сайта">Разовое обновление информации на сайте с возможностью редизайна  </option>
+ <option value="создание_сайта">SEO-настройка</option>
+ <option value="создание_сайта">Техническое обслуживание сайта </option>
+ <option value="создание_сайта">перенос сайта на другой домен/хостинг </option>
+
+               
+                  
+                  
+                              
+                
+                
+                
+                                       
+                
+                
+                 
+ 
+        
+
+
+
+
+
+<div id="reviews" class="content-block"> <!-- Отзывы -->
+    <h2>Отзывы</h2> <br>
+    <p class="pad"><img src="фон1.png"></p>
+    <p class="pad1"><img src="фон1.png"></p>
+</div>
+
+
+
+function openModal(modalId) {
+    const modal = document.getElementById(modalId);
+    modal.style.display = 'block';
+}
+
+function closeModal(modal) {
+    modal.style.display = 'none';
+}
+
+// Навешиваем обработчики на кнопки открытия модалей
+document.querySelectorAll('[data-modal]').forEach(button => {
+    button.addEventListener('click', function() {
+        const modalId = this.getAttribute('data-modal');
+        openModal(modalId);
+    });
+});
+
+// Навешиваем обработчики на кнопки закрытия модалей
+document.querySelectorAll('.close').forEach(closeButton => {
+    closeButton.addEventListener('click', function() {
+        const modal = this.closest('.modal');
+        closeModal(modal);
+    });
+});
+
+// Закрытие модалки по клику вне её области
+window.onclick = function(event) {
+    if (event.target.classList.contains('modal')) {
+        closeModal(event.target);
+    }
+};
+
+
+
+
+
+
+
+
+
+document.getElementById('accept-button').addEventListener('click', function() {
+    document.getElementById('policy-modal').style.display = 'none';
+});
+
+document.getElementById('accept-button1').addEventListener('click', function() {
+    document.getElementById('offer-modal').style.display = 'none';
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Открыть модальное окно
+    document.querySelectorAll('.open-modal').forEach(function(el) {
+        el.addEventListener('click', function(e) {
+            var modalId = this.getAttribute('data-modal-id');
+            var modal = document.getElementById(modalId);
+            modal.style.display = 'block'; // Показываем модальное окно
+        });
+    });
+
+    // Закрыть модальное окно
+    document.querySelectorAll('.close').forEach(function(el) {
+        el.addEventListener('click', function(e) {
+            var modal = this.closest('.modal'); // Находим ближайшее модальное окно
+            modal.style.display = 'none'; // Скрываем модальное окно
+        });
+    });
+
+    // Закрыть модальное окно при клике вне контейнера
+    window.onclick = function(event) {
+        if (event.target.classList.contains('modal') && !event.target.classList.contains('modal-content')) {
+            event.target.style.display = 'none'; // Скрываем модальное окно, если клик был вне его содержимого
+        }
+    };
+});
+
+
+
+<div id="examples" class="content-block"> <!-- Примеры работ -->
+    <h2>Примеры работ</h2>
+    
+<div class="rew">
+   <div class="tb" >
+    <div class="carousel-container2">
+        <div class="articles-carousel2">     <button id="prev2"><</button>
+        
+        
+            <article class="article2" data-modal-id="modal-1">            
+                <div>
+                    <h2>  Landing-Lite            </h2>  <br>                  
+                    <p><img src="маркер1.png"> Разработка лендинга (до 12 блоков)</p> <br>    
+                    
+                    <p><i>Например, Главная, обо мне, Услуги, Контакты, Отзывы и др</i></p>  <br>    
+   
+                </div>
+            </article>
+    
+            <article class="article2" data-modal-id="modal-2">            
+                <div>
+                    <h2> Landing-Pro            </h2>   <br>                      
+                    <p> <img src="маркер1.png">Разработка сайтов (до 12 блоков)</p> <br>    
+                    <p><i>Например, Главная, обо мне, Услуги, Контакты, Отзывы и др</i></p>  <br>    
+   
+                </div>
+            </article>
+    
+            <article class="article2" data-modal-id="modal-3">            
+                <div>
+                    <h2> Landing-Premium            </h2>    <br>                     
+                    <p> <img src="маркер1.png">Разработка сайтов (до 12 блоков)</p> <br>    
+                    <p><i>Например, Главная, обо мне, Услуги, Контакты, Отзывы и др</i></p>  <br>    
+   
+                </div>
+            </article>
+    
+
+           
+                 <button id="next2">></button>
+                </div>
+            </div>
+
+
+   </div>
+   <div class="tb" >
+
+    <p>2</p>
+   </div>
+   <div class="tb" > 
+
+    <p>3</p>
+   </div>
+</div></div>
+
+
+
+
+
+
+<!-- Контентные блоки -->
+<div id="about" class="content-block"> <!-- Обо мне -->
+    <h2>Обо мне</h2>
+    <p>Информация обо мне.</p>
+</div>
+
+<div id="services" class="content-block"> <!-- Услуги -->
+    <h2>Услуги</h2>
+    <p>Описание предлагаемых услуг.</p>
+</div>
+
+<div id="examples" class="content-block"> <!-- Примеры работ -->
+    <h2>Примеры работ</h2>
+    <p>Галерея моих проектов.</p>
+</div>
+
+<div id="reviews" class="content-block"> <!-- Отзывы -->
+    <h2>Отзывы</h2>
+    <p>Отзывы клиентов о моей работе.</p>
+</div>
+
+<div id="contacts" class="content-block"> <!-- Контакты -->
+    <h2>Контакты</h2>
+    <p>Способы связаться со мной.</p>
+</div>
+
+
+
+
+
+
+
+    <div id="map" class="map-container">
+        <img src="карта1.png" alt="Карта" class="map"> <!-- Здесь нужно указать путь к твоей карте -->
+        
+        <div id="intro-text"> <div>       
+                  <img src="лавочка1.png" alt="Ваше фото" class="photo"> <!-- Здесь нужно указать путь к твоему фото -->
+<br><h1>Сайты под ключ для специалистов в сфере услуг</h1>
+            <p><br>"Подари волшебство для себя и клиента"</p>
+           <br>
+            <button onclick="showMenu()" class="button">Творить</button>
+        </div></div>
+        
+        <div id="buttons" class="buttons" style="display: none;"> <!-- Контейнер для кнопок -->
+            <button id="about-btn" onclick="showMenu1()" class="btn" >Обо мне</button>
+            <button id="services-btn" onclick="showMenu1()" class="btn" >Услуги</button>
+            <button id="examples-btn" onclick="showMenu1()" class="btn" >Примеры работ</button>
+            <button id="reviews-btn"  onclick="showMenu1()"class="btn" >Отзывы</button>
+            <button id="contacts-btn"  onclick="showMenu1()"class="btn" >Контакты</button>
+            <button id="home-btn"  onclick="showMenu1()" class="btn" >Домой</button>
+
+        </div>
+    </div>
+    <div id="hide" class="hidden" style="display: none;">
+        <div>
+               <!-- Контентные блоки -->
+<div id="about" class="content-block"> <!-- Обо мне -->
+    <h2>Обо мне</h2>
+    <p>Информация обо мне.</p> Как назвать эту любовь» описание серий 281-300
+    281 серия «Как назвать эту любовь» описание
+    
+    Кхуши возвращает на место фальшивый медальон. Настоящий – это флешка с защитным паролем. Подарки от имени Арнава приходят. Наани теряет бдительность, Манорама с подозрением относится к штампах Шотландии на посылках, и подключается к поискам.
+    
+    282 серия «Как назвать эту любовь» описание
+    
+    Нандкишор устанавливает скрытую камеру в комнате Шьяма. Она все записывает. Пароль «Я люблю тебя, Кхуши», записывается, когда Шьям вводит его на лэптопе. Кхуши и Нандкишор шокированы этим открытием. Кхуши обманным путем вынуждает Шьяма признаться в любви, чтобы использовать это позже.
+    
+    283 серия «Как назвать эту любовь» описание
+    
+    Нандкишор помогает Кхуши найти пароль от лэптопа. Семья шокирована завещанием. Акаш отчитывает Пайял. Кхуши просит Шьяма развестись с Анджали.
+    
+    284 серия «Как назвать эту любовь» описание
+    
+    Кхуши толкает Шьяма на развод с Анджали, но Манораме это кажется подозрительным. Она говорит Анджали о Шьяме и Кхуши
+    
+    285 серия «Как назвать эту любовь» описание
+    
+    Кхуши получает чек Арнава из отеля, рядом с которым держат похищенного. Анджали отказывается слушать Манораму. Шьям узнает о расследовании Нандкишора и Кхуши
+    
+    286 серия «Как назвать эту любовь» описание
+    
+    Шьям узнает о желании Кхуши найти Арнава, пока Анджали пытается доказать что Манорама не права. Кхуши находит место, где держат Арнава, но Шьям перехватывает ее прежде, чем она успевает войти
+</div>
+
+<div id="services" class="content-block"> <!-- Услуги -->
+    <h2>Услуги</h2>
+    <p>Описание предлагаемых услуг.</p>
+    Как назвать эту любовь» описание серий 281-300
+281 серия «Как назвать эту любовь» описание
+
+Кхуши возвращает на место фальшивый медальон. Настоящий – это флешка с защитным паролем. Подарки от имени Арнава приходят. Наани теряет бдительность, Манорама с подозрением относится к штампах Шотландии на посылках, и подключается к поискам.
+
+282 серия «Как назвать эту любовь» описание
+
+Нандкишор устанавливает скрытую камеру в комнате Шьяма. Она все записывает. Пароль «Я люблю тебя, Кхуши», записывается, когда Шьям вводит его на лэптопе. Кхуши и Нандкишор шокированы этим открытием. Кхуши обманным путем вынуждает Шьяма признаться в любви, чтобы использовать это позже.
+
+283 серия «Как назвать эту любовь» описание
+
+Нандкишор помогает Кхуши найти пароль от лэптопа. Семья шокирована завещанием. Акаш отчитывает Пайял. Кхуши просит Шьяма развестись с Анджали.
+
+284 серия «Как назвать эту любовь» описание
+
+Кхуши толкает Шьяма на развод с Анджали, но Манораме это кажется подозрительным. Она говорит Анджали о Шьяме и Кхуши
+
+285 серия «Как назвать эту любовь» описание
+
+Кхуши получает чек Арнава из отеля, рядом с которым держат похищенного. Анджали отказывается слушать Манораму. Шьям узнает о расследовании Нандкишора и Кхуши
+
+286 серия «Как назвать эту любовь» описание
+
+Шьям узнает о желании Кхуши найти Арнава, пока Анджали пытается доказать что Манорама не права. Кхуши находит место, где держат Арнава, но Шьям перехватывает ее прежде, чем она успевает войти
+</div>
+
+<div id="examples" class="content-block"> <!-- Примеры работ -->
+    <h2>Примеры работ</h2>
+    <p>Галерея моих проектов.</p>
+    Как назвать эту любовь» описание серий 281-300
+281 серия «Как назвать эту любовь» описание
+
+Кхуши возвращает на место фальшивый медальон. Настоящий – это флешка с защитным паролем. Подарки от имени Арнава приходят. Наани теряет бдительность, Манорама с подозрением относится к штампах Шотландии на посылках, и подключается к поискам.
+
+282 серия «Как назвать эту любовь» описание
+
+Нандкишор устанавливает скрытую камеру в комнате Шьяма. Она все записывает. Пароль «Я люблю тебя, Кхуши», записывается, когда Шьям вводит его на лэптопе. Кхуши и Нандкишор шокированы этим открытием. Кхуши обманным путем вынуждает Шьяма признаться в любви, чтобы использовать это позже.
+
+283 серия «Как назвать эту любовь» описание
+
+Нандкишор помогает Кхуши найти пароль от лэптопа. Семья шокирована завещанием. Акаш отчитывает Пайял. Кхуши просит Шьяма развестись с Анджали.
+
+284 серия «Как назвать эту любовь» описание
+
+Кхуши толкает Шьяма на развод с Анджали, но Манораме это кажется подозрительным. Она говорит Анджали о Шьяме и Кхуши
+
+285 серия «Как назвать эту любовь» описание
+
+Кхуши получает чек Арнава из отеля, рядом с которым держат похищенного. Анджали отказывается слушать Манораму. Шьям узнает о расследовании Нандкишора и Кхуши
+
+286 серия «Как назвать эту любовь» описание
+
+Шьям узнает о желании Кхуши найти Арнава, пока Анджали пытается доказать что Манорама не права. Кхуши находит место, где держат Арнава, но Шьям перехватывает ее прежде, чем она успевает войти
+</div>
+
+<div id="reviews" class="content-block"> <!-- Отзывы -->
+    <h2>Отзывы</h2>
+    <p>Отзывы клиентов о моей работе.</p>
+    Как назвать эту любовь» описание серий 281-300
+281 серия «Как назвать эту любовь» описание
+
+Кхуши возвращает на место фальшивый медальон. Настоящий – это флешка с защитным паролем. Подарки от имени Арнава приходят. Наани теряет бдительность, Манорама с подозрением относится к штампах Шотландии на посылках, и подключается к поискам.
+
+282 серия «Как назвать эту любовь» описание
+
+Нандкишор устанавливает скрытую камеру в комнате Шьяма. Она все записывает. Пароль «Я люблю тебя, Кхуши», записывается, когда Шьям вводит его на лэптопе. Кхуши и Нандкишор шокированы этим открытием. Кхуши обманным путем вынуждает Шьяма признаться в любви, чтобы использовать это позже.
+
+283 серия «Как назвать эту любовь» описание
+
+Нандкишор помогает Кхуши найти пароль от лэптопа. Семья шокирована завещанием. Акаш отчитывает Пайял. Кхуши просит Шьяма развестись с Анджали.
+
+284 серия «Как назвать эту любовь» описание
+
+Кхуши толкает Шьяма на развод с Анджали, но Манораме это кажется подозрительным. Она говорит Анджали о Шьяме и Кхуши
+
+285 серия «Как назвать эту любовь» описание
+
+Кхуши получает чек Арнава из отеля, рядом с которым держат похищенного. Анджали отказывается слушать Манораму. Шьям узнает о расследовании Нандкишора и Кхуши
+
+286 серия «Как назвать эту любовь» описание
+
+Шьям узнает о желании Кхуши найти Арнава, пока Анджали пытается доказать что Манорама не права. Кхуши находит место, где держат Арнава, но Шьям перехватывает ее прежде, чем она успевает войти
+</div>
+
+<div id="contacts" class="content-block"> <!-- Контакты -->
+    <h2>Контакты</h2>
+    <p>Способы связаться со мной.</p>
+    Как назвать эту любовь» описание серий 281-300
+281 серия «Как назвать эту любовь» описание
+
+Кхуши возвращает на место фальшивый медальон. Настоящий – это флешка с защитным паролем. Подарки от имени Арнава приходят. Наани теряет бдительность, Манорама с подозрением относится к штампах Шотландии на посылках, и подключается к поискам.
+
+282 серия «Как назвать эту любовь» описание
+
+Нандкишор устанавливает скрытую камеру в комнате Шьяма. Она все записывает. Пароль «Я люблю тебя, Кхуши», записывается, когда Шьям вводит его на лэптопе. Кхуши и Нандкишор шокированы этим открытием. Кхуши обманным путем вынуждает Шьяма признаться в любви, чтобы использовать это позже.
+
+283 серия «Как назвать эту любовь» описание
+
+Нандкишор помогает Кхуши найти пароль от лэптопа. Семья шокирована завещанием. Акаш отчитывает Пайял. Кхуши просит Шьяма развестись с Анджали.
+
+284 серия «Как назвать эту любовь» описание
+
+Кхуши толкает Шьяма на развод с Анджали, но Манораме это кажется подозрительным. Она говорит Анджали о Шьяме и Кхуши
+
+285 серия «Как назвать эту любовь» описание
+
+Кхуши получает чек Арнава из отеля, рядом с которым держат похищенного. Анджали отказывается слушать Манораму. Шьям узнает о расследовании Нандкишора и Кхуши
+
+286 серия «Как назвать эту любовь» описание
+
+Шьям узнает о желании Кхуши найти Арнава, пока Анджали пытается доказать что Манорама не права. Кхуши находит место, где держат Арнава, но Шьям перехватывает ее прежде, чем она успевает войти
+</div>
+    </div>
+
+
+
+  
+        </div>
+   
