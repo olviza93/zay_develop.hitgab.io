@@ -73,8 +73,8 @@ width: 80vw;}
 }
 
 .grid-item1 img {
-    width: 35vw;
-    height: 35vh;
+    width: 50vw;
+    height: 50vh;
     object-fit: cover;
     margin-bottom: 10px;
 }
@@ -99,8 +99,8 @@ width: 80vw;}
 }
 
 .grid-item2 img {
-    width: 35vw;
-    height: 35vh;
+    width: 50vw;
+    height: 50vh;
     object-fit: cover;
     margin-bottom: 10px;
 }
