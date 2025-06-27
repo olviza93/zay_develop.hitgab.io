@@ -1,0 +1,1402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {max-width: 100vw;
+    overflow-x: hidden; /* Скрывает горизонтальную прокрутку */
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    position: relative;
+    background-image: url('IMG/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7); /* Белое покрытие с прозрачностью 70% */
+    z-index: 2;
+}
+
+/* Опциональный стиль для основного контента */
+.content > * { /* Все элементы кроме .overlay */
+    position: relative;
+    z-index: 3; /* Обеспечиваем, что контент расположен выше полупрозрачной подложки */
+}
+.reg1{  position: absolute;
+padding-left: 87vw;
+padding-top: 3vh;
+text-align: end;
+line-height: 15px;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{       clip-path: circle(50% at 50% 50%, 50%);
+    height: 60vh; /* Установи нужный размер изображения */
+    object-fit: cover; /* Чтобы изображение заполняло всю область */
+}
+
+.heading h1,
+.heading p {font-weight: 100;
+  
+}
+
+.title2{line-height: 100px;
+    font-size: 40px;
+    color: #796014;
+      display: flex;
+     justify-content: center;
+}
+
+.title1{padding-top: 5px;
+    line-height: 90px;
+    font-size: 140px; 
+    color: #A41313;    
+     text-shadow: 0 6px 10px black;
+     display: flex;
+     justify-content: center;
+     font-weight:bolder;
+}
+
+.title{padding-top: 5px;
+    font-size: 56px;
+ padding-bottom: 0px;
+line-height: 34px;
+ display: flex;
+     justify-content: center;
+    }
+
+    .font1{color:#707070;
+    font-size: 32px;}
+ @media screen and (max-width: 1024px) {
+    .title1 {
+        font-size: 54px;
+        line-height: 64px;
+    }
+    .title2 {
+        font-size: 40px;
+        line-height: 34px;
+    }
+    .centered-content .logo img {
+        max-width: 250px;
+    }
+}
+@media screen and (max-width: 768px) {
+.logo img{      
+    height: 60vh; /* Установи нужный размер изображения */
+}
+.heading h1, .heading p {font-weight: 80;
+  
+}
+    .title1 {
+        font-size: 48px;
+        line-height: 52px;
+    }
+    .title2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+}
+@media screen and (max-width: 480px) { 
+    .logo img{   
+    height: 60vh; /* Установи нужный размер изображения */
+ padding-top: 10vh;
+
+}
+.heading h1, .heading p {font-weight: 50;
+  
+}
+    .title1 { 
+        font-size: 43px;
+        line-height: 30px;
+    }
+    .title2 { padding-top: 7vh;
+        padding-bottom: 3vh;
+        font-size: 25px;
+        line-height: 34px;
+    }
+  
+}
+
+
+
+
+
+
+.buttons-container {
+    align-items: center;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    
+}
+.buttons-container1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.button {
+    padding: 5px 5px 5px;
+    background-color: #a71300; /* Основной цвет кнопки */
+    color: white;
+    text-decoration: none;
+    border: 2px solid #7a0f01; /* Белая рамка вокруг кнопки */
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button1 {
+    padding: 0px 0px -100px;
+    background-color: transparent; /* Основной цвет кнопки */
+    color: #796014;
+    text-decoration: none;
+    border: none; /* Белая рамка вокруг кнопки */
+  font-weight: 20;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button3 img{
+    height: 5vh;
+}
+.button3 {
+  display: flex;
+     justify-content: center;
+    background-color: transparent; /* Основной цвет кнопки */
+    text-decoration: none;
+    border: none; /* Белая рамка вокруг кнопки */
+    cursor: pointer;
+    
+}
+.button5{ text-decoration: none;
+      color:#a71300 ;
+}
+
+.button2 {font-size: 16px;
+    padding: 5px 5px 5px;
+    background-color: transparent; /* Основной цвет кнопки */
+    color: #796014;
+    text-decoration: none;
+    border:2px solid #7a0f01;
+  font-weight: 20;
+   border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button1 text{padding-bottom: 0px;}
+.button:hover {
+    background-color: #5c0b00; /* Темнее оттенок основного цвета при наведении курсора */
+}
+.knopka{
+    color: #796014; 
+    background-color: transparent; 
+    border:none; 
+}
+.button4:hover, .knopka:hover{
+    text-decoration:underline #5c0b00;
+}
+ .button:hover, .button1:hover, .button2:hover { box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Появление тени при наведении */}
+  .button, .button1, .button2 { 
+    padding-left: 1vw; padding-right: 1vw;
+    text-align: center;
+   justify-items: center;
+  }
+
+.red{
+    color:#a71300 ;
+}
+
+.carousel-container, .carousel-container1 {z-index: 100;  display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+    width: 100vw;;
+     gap: 10px;
+}
+.articles-carousel, .articles-carousel1  {
+    display: flex;
+    gap: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.article, .article1 {font-weight:100;
+    width: 31vw;
+    height: 70vh;
+    border: none;
+    text-align: center;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;padding-top: 5px;
+
+    
+}
+.article img, .article1 img {max-width: 15vw;}
+
+#prev, #next, #prev1, #next1 {font-size: 28px; 
+    margin: 15px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold; /* Жирный шрифт */
+    background-color: transparent; /* Прозрачный фон */
+    border: none; /* Отсутствие рамки */
+    color: black; /* Цвет текста (можно изменить под ваш дизайн) */
+}
+
+#prev, #prev1 {
+    left: -15px;
+    color:#a71300;
+    
+}
+
+#next, #next1 {
+    right: -10px; 
+    color:#a71300;
+}
+
+.pagination { display: flex; justify-content: center; gap: 0.5em; margin-top: 1em; }
+        .pagination a { display: inline-block; padding: 0.5em 1em; background-color: #fff; color: #333; border-radius: 5px; text-decoration: none; transition: background-color 0.2s ease-in-out; }
+        .pagination a.active { background-color: #ffd1dc; color: white; }
+
+
+.pagination-link.active {
+    background-color: #ffd1dc; /* Цвет фона */
+    color: white;              /* Цвет текста */
+}
+.pagination:hover{
+    text-decoration:underline #5c0b00;
+}
+.pagination-link.active:hover {
+    background-color: #bd8491; /* Темнее оттенок основного цвета при наведении курсора */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.learn-more-link:hover{
+    text-decoration:underline #5c0b00;
+    color: #7a0f01;
+}
+
+.btn-primary.gap:hover {
+    cursor: pointer;
+}
+.cards{
+    width: 25vw;
+}
+.cards img {height: 45vh;
+    width: 24vw;
+padding-top: -50px;
+}
+.card{
+    width: 40vw;
+}
+.card img {height: 45vh;
+    width: 24vw;
+padding-top: -50px;
+}
+
+.card1{
+    font-size: 36px;
+}
+.card2{
+    font-size: 20px;
+}
+
+.card3{display: flex;
+    justify-content: center;
+    font-size: 70px;
+    color: #a41313; align-content: center; text-align: center;
+    padding-top: 3vh;
+}
+.center2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+@media (max-width: 800px) {
+    .cards img, .card img {
+    width: 65vw;
+    height: auto;
+padding-top: -50px;
+}
+
+
+    .buttons-container {
+        flex-direction: column; /* Изменяем направление кнопок на вертикальное */
+        align-items: center; /* Выравниваем кнопки по центру */
+        gap: 15px; /* Уменьшаем отступ между кнопками */
+        margin-top: 30px; /* Уменьшаем верхний отступ */
+    }
+    
+    .button {
+        
+        font-size: 14px; /* Уменьшаем размер шрифта */
+    }
+    
+    .button {
+        min-width: 30vw;
+        padding: 8px 10px; /* Уменьшаем внутренние отступы */
+        padding-top: 2vh;
+    }
+    .button4{width: 27vw;
+    text-align:center;
+      padding: 1px 2px 2px;
+    background-color: white; /* Основной цвет кнопки */
+    border: 2px solid #ac9d10; /* Белая рамка вокруг кнопки */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  .button5{
+    color: #a71300;
+    text-decoration: none;
+}
+ .button4:hover { box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Появление тени при наведении */}
+
+}
+
+
+.about{ width: 65vw;
+    font-size: 32px ;
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    text-align: center;
+    font-weight:100;
+    line-height: 40px;
+}
+
+.about img{width: 70vw;
+    height: 15vh;
+    
+}
+
+.subtitle {color: #a71300;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.form{line-height: 33px;
+    width: 50vw;
+    font-size: 20px;
+  
+    padding-left: 5vw;
+    padding-right: 5vw;
+ 
+}
+  input:focus,
+        textarea:focus,
+        select:focus {
+            border-color: #67b8ff;
+            box-shadow: 0 0 5px rgba(0, 47, 88, 0.5);
+        }
+     #form   input, textarea, select {
+           width: 35vw;
+        }
+.form1{ padding-left: 5vw;
+    font-size: 35px;
+    
+}
+.footer-container {color: white;
+    z-index: 99;
+    position: relative;
+    background-color: #601703;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column {color: white;
+    max-width: 30vw;
+    text-align: center;
+}
+
+
+.social-icons a {color: white;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {border-radius: 50%; 
+    height: 30px;
+}
+
+
+
+
+
+.scroll-top-btn {font-size: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    z-index: 9999; /* Увеличенное значение z-index */
+}
+
+.scroll-top-btn button {z-index: 10000;
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    color:#796014;
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.scroll-top-btn button:hover {font-weight: bolder;
+    background-color: transparent;
+}
+
+.scroll-top-btn button i {
+    font-size: 22px;
+}
+
+.show-scroll-top {
+    display: block;
+}
+
+.left{ text-align: left;
+}
+.right{ text-align: right;}
+
+
+
+.center{display: flex;
+justify-content: center;}
+
+
+
+    img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        /* Кнопка перехода */
+        a.btn {
+            display: inline-block;
+            margin-top: 1rem;
+        }
+
+.center1{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr); 
+   
+ 
+}
+.center1 span{
+    border: none;
+    padding-left: 10px;
+}
+
+
+.centers{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr); 
+   
+ 
+}
+.centers span{
+    border: none;
+    padding-left: 15px;
+}
+
+
+.open-modal{
+    cursor: pointer;
+}
+.logo1 img{
+max-width: 20vw;
+height: auto;
+}
+
+
+
+
+
+
+
+.navbar {color: white;
+    background-color: #a71300;
+    padding: 15px ;
+    position: relative;
+    gap: 15px; 
+}
+.brand {
+    font-size: 50px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 30px;
+    text-shadow: 0 6px 10px black;
+}
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.profession {
+    font-size: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    text-shadow: 0 6px 10px black;
+}
+.menu {font-size: 20px;
+    list-style-type: none;
+    float: right;
+    margin-top: 10px;
+}
+.menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.menu a {
+    text-decoration: none;
+    color:#fff;
+}
+.hamburger-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 3;
+}
+.hamburger {border:none; background: transparent;
+    cursor: pointer;
+    display: block;
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    top: 8px;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+.visible {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+.hamburger span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #a71300;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+.dropdown-btn {margin: 0;
+    position: fixed;
+    top: 2vh;
+    right: 20px;
+    z-index: 999; /* Чтобы кнопка была всегда сверху */
+}
+
+.dropdown-btn button {margin: 0;
+    line-height: 0.05;
+    width: 3vw;
+    cursor: pointer;
+    padding: 7px 20px;
+    background-color: transparent; /* Прозрачный фон */
+    color: #a71300;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease; 
+    
+}
+
+.dropdown-btn button:hover {
+    background-color: rgba(255, 255, 255, 0.7); /* Полупрозрачная белая заливка при наведении */
+}
+
+.dropdown-content {right: 0vw;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2100;
+    opacity: 0; /* Исходная непрозрачность */
+    transform: scaleY(0); /* Исходный масштаб по оси Y */
+    transition: all 0.3s ease-in-out; /* Плавное появление */
+}
+.dropdown-content ul {
+    margin-left: 0px;
+    min-width: 170px;
+} 
+.dropdown-content a { 
+    color: black;
+    text-decoration: none;
+    display: block;
+    
+    padding-left: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+    opacity: 1; /* Появление списка */
+    transform: scaleY(1); /* Масштабирование до нормального размера */
+}
+
+
+
+
+
+.dropdown-menu {
+    position: absolute;
+    top: 36px;
+    right: 0;
+    background-color: rgba(255, 215, 186, 0.95);
+    padding: 10px 0;
+    max-width: 180px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.3s ease-in-out;
+    z-index: 3;
+}
+.show-dropdown {
+    transform: scaleY(1);
+}
+.dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s ease-in-out;
+}
+.dropdown-menu a:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+.nav{
+    padding-left: 40vw; font-size:32px;
+}
+.fm{
+    padding-top: 5vh;
+}
+ .blogim{
+        max-width: 18vw;
+    }
+/* Other smaller screens or devices */
+
+
+
+
+/* Модальное окно */
+.modal { 
+    display: none; /* Скрыто по умолчанию */
+    position: fixed;
+    z-index: 5; /* Гарантируем высокое положение над другими элементами */
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, 0%); /* Сдвигаем окно относительно его центра */
+    overflow-x: hidden;
+    background-color: rgb(252, 242, 225);
+    border-radius: 20px;
+     font-size: 20px;
+}
+
+
+    .modal .modal-content {
+        text-align: justify;
+        background-color: transparent;
+       
+        border: none;
+        box-shadow: 0 4px 8px 0 rgba(248, 247, 247, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        animation-name: zoom;
+        animation-duration: 0.6s;
+        overflow-y: auto; /* Добавляем вертикальную прокрутку */
+        max-height: 96vh; /* Ограничиваем максимальную высоту содержимого */
+    
+}
+.modal1{display: none; /* Скрыто по умолчанию */
+ position: fixed;
+    z-index: 5; /* Гарантируем высокое положение над другими элементами */
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, 0%); /* Сдвигаем окно относительно его центра */
+    overflow-x: hidden;
+    background-color: rgb(252, 242, 225);
+    border-radius: 20px;
+     font-size: 20px;
+     
+    padding: 35px;
+    width: 98vw;
+}
+
+   
+
+.modal-content{
+   padding: 30px;
+}
+.modal-content1{  text-align: justify;
+    background-color: transparent;
+    
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(248, 247, 247, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-name: zoom;
+    animation-duration: 0.6s;
+    overflow-y: auto; /* Добавляем вертикальную прокрутку */
+    max-height: 96vh; /* Ограничиваем максимальную высоту содержимого */
+
+    padding: 35px;
+    width: 90vw;
+ }
+@keyframes zoom {
+    from { transform: scale(0) }
+    to   { transform: scale(1) }
+}
+
+a{cursor: pointer;
+    text-decoration: none;
+    color: inherit; 
+
+}
+/* Кнопка закрытия */
+
+.close {
+    position: fixed; /* Фиксируем позицию кнопки */
+    top: 40px;       /* Переместим чуть ниже верхней границы экрана */
+    right: 13px;     /* Отступ от правого края */
+    z-index: 1000;   /* Самый высокий приоритет среди элементов */
+    color: #070707;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+    .article img{
+        max-width: 80%; /* На маленьких экранах изображение занимает всю доступную ширину */
+    }
+      .article1 img{
+        max-width: 80%; /* На маленьких экранах изображение занимает всю доступную ширину */
+    }
+    .article, .article1  {display: flex;
+        justify-content: center;
+        width: 40vw; /* Уменьшаем ширину статьи до 90% ширины экрана */
+        font-size: 14px; /* Уменьшаем размер шрифта */
+        max-height: 90vh; /* Ограничиваем максимальную высоту */
+        line-height: 20px; /* Подстраиваем межстрочный интервал */
+    }
+.article1, .article{
+     font-size: 12px; /* Уменьшаем размер шрифта */
+}
+    .carousel-container {
+        padding: 20px; /* Уменьшаем отступы */
+    }
+
+    #prev, #next {
+        font-size: 24px; /* Уменьшаем размер кнопок */
+        padding: 10px; /* Уменьшаем отступы внутри кнопок */
+    }
+     #form input, textarea, select {
+           width: 60vw;}
+}
+@media screen and (max-width: 700px) {
+    .footer-container{font-size: 10px;}
+    .article img{
+        max-width: 80%; /* На маленьких экранах изображение занимает всю доступную ширину */
+    }
+      .article1 img{
+        max-width: 50%; /* На маленьких экранах изображение занимает всю доступную ширину */
+    }
+    .article, .article1  {display: flex;
+        justify-content: center;
+        width: 90vw; /* Уменьшаем ширину статьи до 90% ширины экрана */
+        font-size: 14px; /* Уменьшаем размер шрифта */
+        max-height: 90vh; /* Ограничиваем максимальную высоту */
+        line-height: 20px; /* Подстраиваем межстрочный интервал */
+    }
+.article1, .article{
+     font-size: 12px; /* Уменьшаем размер шрифта */
+}
+    .carousel-container {
+        padding: 20px; /* Уменьшаем отступы */
+    }
+
+    #prev, #next {
+        font-size: 24px; /* Уменьшаем размер кнопок */
+        padding: 10px; /* Уменьшаем отступы внутри кнопок */
+    }
+
+    .modal-content img{
+       
+       max-width: 80vw; /* Делаем шире для маленьких экранов */
+    }
+    #form input, textarea, select {
+           width: 70vw;
+        }
+}
+
+
+
+
+.cours {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+
+
+
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.8s ease-out;
+}
+
+/* Видимое состояние блоков: */
+.fade-in.active {
+    opacity: 1;
+}
+
+.pro{
+    display: flex;
+    justify-content:space-around;
+    gap:10px;
+    font-size: 20px;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    align-items: center;
+}
+.pro1{
+    display: flex;
+    justify-content:center;
+    gap:3vw;
+    font-size: 20px;
+    align-items: center;
+}
+.top{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.title3{
+    font-size: 90px;
+}
+.font{
+    font-size: 40px;
+}
+.font1{line-height: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+.fontt1{line-height: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+.log{
+    width: 12vw;
+}
+.logo-spin {
+    animation-name: spin;
+    animation-duration: 8s; /* Время полного оборота */
+    animation-timing-function: linear; /* Равномерная скорость вращения */
+    animation-iteration-count: infinite; /* Повторять бесконечно */
+}
+.stolb{
+    width: 70vw;
+    padding-left: 13vw;
+    font-size: 50px;
+    color:#4D473A;
+}
+.stolb1{padding-top:7vh;
+    width: 85vw;
+    padding-left: 13vw;
+    font-size: 20px;
+    color:#4D473A;
+}
+.stolb2{line-height: 24px;
+    width: 23vw; 
+    font-size: 20px;
+}
+.stolb3{line-height: 28px;
+    width: 55vw;
+  
+    font-size: 20px;
+    color:#4D473A;
+}
+.stolb4{padding: 3vh;
+    width: 40vw;
+    line-height: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+.faq-container { max-width: 70vw; margin: auto; } 
+
+.question { position: relative; 
+    padding-left: 30px; 
+    cursor: pointer; 
+    padding: 10px; 
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 60px;
+    color: #4D473A;
+    border-bottom: 1px solid #ddd; 
+    transition: all 0.3s ease-in-out; } 
+.question::before { /* Символ плюса */ 
+    content: '\2B'; 
+    /* Юникод символа '+' */ 
+    position: absolute; 
+    right: 10px; top: 50%; 
+    transform: translateY(-50%); 
+    /* Центрирование вертикально */ 
+    font-size: 18px; 
+    color: #666; } 
+.question.active::before { /* Меняется на '-' */ 
+    content: '\2D'; 
+    /* Юникод символа '-' */ } 
+.answer { display: none; 
+    padding: 10px; 
+   font-size: 20px;
+   line-height: 29px;
+   color: #4D473A;
+    border-bottom: 1px solid #ddd; } 
+/* Показываем активный ответ */ 
+  .show { display: block; } 
+
+.running{
+        width: 100%;                  /* Ширина контейнера занимает всю доступную область */
+    overflow: hidden;
+}
+ .running-text {height: 15vh;
+    display: inline-block;     /* Позволяет изменять размеры текста динамически */
+    white-space: nowrap;       /* Не даём тексту переноситься на новую строку */
+    animation: scrollText 16s linear infinite;
+} 
+.running-text1 {height: 15vh;
+    display: inline-block;     /* Позволяет изменять размеры текста динамически */
+    white-space: nowrap;       /* Не даём тексту переноситься на новую строку */
+    animation: scrollText 21s linear infinite;
+}
+
+@keyframes scrollText {
+    from { transform: translateX(100%); } /* Начало текста за границей экрана */
+    to   { transform: translateX(-100%); }/* Завершение за левой стороной экрана */
+}
+
+@keyframes spin {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0deg); }
+}
+
+.color{
+    background-color: #faf9f5;
+}
+/* Медиазапросы для адаптивности */
+#filter-form{
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.logopsyh img{       clip-path: circle(50% at 50% 50%, 50%);
+    height: 60vh; /* Установи нужный размер изображения */
+    object-fit: cover; /* Чтобы изображение заполняло всю область */
+}
+.stol{padding: 3vh;
+    
+    width: 40vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 900px) {
+    .logopsyh img{       clip-path: circle(50% at 50% 50%, 50%);
+    height: 30vh; /* Установи нужный размер изображения */
+    object-fit: cover; /* Чтобы изображение заполняло всю область */
+}
+    .stolb2, .stolb3{
+        width: 70vw;
+    }
+      .blogim{
+       max-width: 40vw;
+    }
+    .cards{
+    width: 48vw;
+}
+    .fontt1{line-height: 40px;
+    font-size: 32px;
+    text-align: center;
+}
+.reg1{  position: absolute;
+padding-left: 70vw;
+}
+.button4 {width: 18vw;}
+#specialists form { font-size: 20px;
+}
+#filter-form label  { 
+    width: 40vw;
+}
+}
+
+@media only screen and (max-width: 760px) {
+    #specialists form { font-size: 10px;
+}
+#filter-form .input  { 
+    width: 40vw;
+}
+.reg1{padding-top: 4vh;
+    padding-left: 55vw;
+      line-height:12px;
+   }
+.button4 {width: 27vw;}
+
+    .fontt1{line-height: 25px;
+    font-size: 16px;
+    text-align: center;
+}
+    .modal {max-width: 90vw;
+        font-size: 8px; /* Уменьшаем основной размер шрифта */
+    }
+   .running-text, .running-text1 {
+        font-size: calc(30px + 1vmin); /* Размер шрифта зависит от высоты и ширины экрана */
+        animation-duration: var(--mobile-speed); /* Используем скорость для мобильного режима */
+    }
+     .running-text {
+        --mobile-speed: 12s;            /* Меняем длительность анимации для мобильной версии */
+    }
+    
+    .running-text1 {
+        --mobile-speed: 18s;            /* Другая скорость для второго текста */
+    }
+    .pro, pro1{
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.pro1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cent1{display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 80vw;
+}
+.stolb2, .stolb, .stolb1, .stolb3{width: 80vw;
+text-align: center;}
+.title3{
+    font-size: 30px;
+}
+.font{width: 80vw;
+    font-size: 24px;
+    text-align: center;
+}
+.font1{line-height: 22px;
+    font-size: 20px;
+    text-align: center;
+}
+.log{
+    width: 30vw;
+}
+
+.stolb{
+    font-size: 30px; 
+}
+
+.stolb4{
+   
+    line-height: 20px;
+}
+
+.faq-container { max-width: 70vw; margin: auto; } 
+
+.question {  
+    font-size: 18px;
+   
+    line-height: 22px;
+    } 
+.question::before { /* Символ плюса */ 
+ 
+    font-size: 18px; 
+   } 
+
+.answer { 
+   font-size: 14px;
+   line-height: 20px;
+  }
+}
+
+.media{gap:20px;
+    display: flex;
+    justify-content: center;
+}
+.media img{border-radius: 50%; 
+    
+    max-width: 9vw;
+    max-height: 10vh;
+}
+.media img:hover{
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  
+}
+ .blog{
+        padding-left: 5vw; padding-right:5vw; padding-top:4vh;  gap:1vw; font-size:18px; height: 92vh;
+    }
+    .fontblog{
+        font-size:24px;
+    }
+@media screen and (max-width: 800px) {
+    
+ .blog{width: 45vw;
+        font-size:16px;
+        height: 72vh
+    }
+    .filt{width: 50vw;}
+    .menu {font-size: 16px;
+}
+ .profession {
+    font-size: 26px;
+}
+ .brand{
+font-size: 39px;
+ }  
+ .profile-image {
+    width: 78px;
+    height: 78px;
+}
+  .logo1 img{
+max-width: 24vw;
+height: auto;
+}
+    .form1{line-height: 30px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 2vh;
+}
+.fm{
+    padding-top: 0vh;
+}
+.form2{text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+}
+    .dropdown-btn{top:2vh;
+        right: 5vw;
+    }
+    .about {
+        font-size: 20px; /* Уменьшаем размер текста */
+        line-height: 21px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .subtitle {
+        font-size: 18px; /* Уменьшаем размер текста */
+    }
+    #filter-form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  .card3{font-size: 50px;}
+  .form{
+    width: 85vw;
+  }
+  .cent{display: flex;
+flex-wrap: wrap;
+text-align: center;
+gap:2px;
+}
+.centers, .center1{width: 90vw;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr); 
+}
+.card, .cards{
+    width: 45vw;
+}
+.nav{
+    padding-left: 10vw; font-size:20px;
+}
+}
+.form{
+ font-size: 20px ;
+ font-weight:400;
+    line-height: 30px; }
+   
+@media screen and (max-width: 600px) {
+    .tarif{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .stolb4, .stol{
+        width: 80vw;
+    }
+    .fontblog{
+        font-size:16px;
+    }
+     .blogim{
+        max-width: 80vw;
+    }
+    .blog{ padding-left: 1vw; padding-right:0vw; padding-top:1vh; 
+        width: 80vw;
+        font-size:12px;
+        height: 80vh
+    }
+       .social-icons{
+        display: none;
+    }
+    .form{ line-height: 13px;
+font-size: 10px;
+    }
+     #filter-form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .centers, .center1, .card{ width: 80vw;
+   display: grid;
+   grid-template-columns: repeat(1, 1fr); 
+}
+     .card3{font-size: 30px;}
+  .card1{
+    font-size: 25px;
+}
+.card2{
+    font-size: 14px;
+}
+    .subtitle {
+        font-size: 13px; /* Уменьшаем размер текста */
+    }
+    .nav{
+    padding-left: 10vw; font-size:20px;
+}
+}
+
+
+.background-section {
+    position: relative;
+background: linear-gradient(to bottom,  rgb(207, 207, 243), rgb(247, 200, 208),  #eeede9);
+    background-size: cover;
+    margin: 0;padding: 0;
+}
+
+        .background-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 10vw;
+            width: 90%;
+            height: 100%;
+            background-image: url('IMG/clouds.png'); /* Убедитесь, что путь правильный */
+            background-repeat: repeat-y; /* Повторяем фон только горизонтально */
+            animation: moveBackground 30s linear infinite; /* Анимация движения фона */
+        }
+        
+        @keyframes moveBackground {
+            from { transform: translateX(-10%); } /* Начальное положение слева */
+            to { transform: translateX(100%); } /* Конечное положение справа */
+        }
+
+.scroll-text1 {margin: 0;
+    padding: 30vh;
+    text-align: center;
+    opacity: 0; /* Изначально текст скрыт */
+    position: absolute;
+    z-index: 2;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    --ws-error-color: #f44336;
+    --ws-checkbox-color: #fff;
+    --ws-checkbox-error-color: var(--ws-error-color);
+    --ws-checkbox-disabled-color: #959495;
+    font-family: _Graphik, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    color: #eb8a9e;
+   
+        color: white;          /* Цвет текста белый */
+    font-weight: bold;     /* Жирность шрифта */
+    text-shadow:           /* Эффект теней для создания окантовки */
+        2.5px 2.5px 0px #eb8a9e, /* Верхняя правая сторона */
+        -2.5px -2.5px 0px #eb8a9e,/* Верхняя левая сторона */
+        -2.5px 2.5px 0px #eb8a9e, /* Нижняя левая сторона */
+        2.5px -2.5px 0px #eb8a9e; /* Нижняя правая сторона */
+    font-size: 4.4rem; 
+    letter-spacing: -.66px;
+    line-height: 1.1;
+    text-align: center;
+    box-sizing: border-box;
+    will-change: opacity, scroll-position;
+    position: relative;
+}
+@media screen and (max-width: 920px) {
+    .dropdown-btn{
+        margin: 0;
+    }
+.scroll-text1 {width: 70vw;
+    padding: 8vh;
+    padding-top: 8vh;
+    --swiper-navigation-size: 30px;
+    font-size: 3.1rem;
+    font-weight: 300;
+    letter-spacing: -.56px;
+    line-height: 0.95;
+}
+.scroll-text1  p{display: flex; justify-content: center;padding-left: 15vh;
+}
+}
+@media screen and (max-width: 720px) {
+.scroll-text1 {width: 70vw;
+    padding: 12vh;
+    padding-top: 20vh;
+    --swiper-navigation-size: 20px;
+    font-size: 1.8rem;
+    font-weight: 200;
+    letter-spacing: -.46px;
+    line-height: 0.8;
+}
+.scroll-text1  p{display: flex; justify-content: center;padding-left: 15vh;
+}
+}

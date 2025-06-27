@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример сайта с эффектом появления текста</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Разметка -->
+    <section class="background-section">
+        <div >
+        <h1 class="scroll-text1">
+            <p  >Представьте своё будущее,</p> 
+            <p>в котором Вы просыпаетесь каждое утро</p> 
+            <p>полной сил и вдохновения, </p>
+            <p>зная, что впереди ждёт новый удивительный день.</p>
+            <p>Ваши отношения наполнены гармонией</p>  
+            <p>и взаимопониманием,</p>
+            <p>карьера приносит радость и удовлетворение,</p> 
+            <p>а внутренний мир сияет спокойствием и уверенностью.</p> 
+
+Это будущее возможно — вместе с нами!</h1></div>
+    </section>
+    
+    <script>
+   document.addEventListener("DOMContentLoaded", function() {
+    const scrollText = document.querySelector('.scroll-text1');
+
+    window.addEventListener('scroll', () => {
+        let scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+        // Начало анимации на отметке 70px, полное появление к 200px
+        if(scrollPosition >= 25 && scrollPosition <= 200) {
+            // Расчёт непрозрачности между 70 и 200 пикселями
+            scrollText.style.opacity = ((scrollPosition - 25) / (200 - 25));
+        } else if(scrollPosition > 200){
+            // Полностью показать текст после 100px
+            scrollText.style.opacity = 1;
+        } else {
+            // Скрыть текст перед началом области активации
+            scrollText.style.opacity = 0;
+        }
+    });
+});
+</script>
+</body>
+</html>
